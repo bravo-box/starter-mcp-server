@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environmentName": {
+      "value": "dev"
+    },
+    "location": {
+      "value": "usgovvirginia"
+    },
+    "openAIModelName": {
+      "value": "gpt-35-turbo"
+    },
+    "openAIModelVersion": {
+      "value": "0613"
+    },
+    "openAIDeploymentCapacity": {
+      "value": 30
+    }
+  }
+}
