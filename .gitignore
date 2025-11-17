@@ -107,3 +107,8 @@ packages/
 
 # Docker
 docker-compose.override.yml
+
+# Bicep compiled outputs
+*.bicep.json
+infra/**/*.json
+!infra/main.parameters.json
